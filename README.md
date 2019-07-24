@@ -47,7 +47,7 @@ EXCLUDE_FILES                      // Exclude Files in comma seprated string eg.
 ## Installation
 
 Steps to run the script:
-  1. git clone https://github.com/SystangoTechnologies/Koach-Typescript.git  // Clone the script
+  1. git clone https://github.com/SystangoTechnologies/Frontend-Deployment-Utility.git  // Clone the script
   2. cd Koach-Typescript                                                     // Go to the cloned repository
   2. Copy the files 'deploy.js config.js package.json' to your project_dir   // Copy the content in project dir 
   3. Go to your project_dir                                                  // project dir
