@@ -29,17 +29,17 @@ To simulate environment variables
 
 The environment variables are as follows -
 ```
-AWS_ACCESS_KEY                            // AWS IAM access Key
-AWS_SECRET_KEY                            // AWS IAM secret Key
-AWS_REGION                                // AWS region
-S3_BUCKET                                 // Bucket name
-DISTRIBUTION_ID                           // CloudFront distribution Id
-UPLOAD_TO_S3                              // Flag to upload the files on s3 (true or false)
-UPDATE_CLOUDFRONT                         // Flag to update the CloudFront distribution [true or false]
-EXCLUDE_ROOT_DIR                          // Upload the content of the folder or upload the folder (true or false)
-EXCLUDE_DIRECTORY                         // Exclude directory in comma seprated string eg. '.git, npm_modules'
-EXCLUDE_FILES                             // Exclude Files in comma seprated string eg. '.gitignore', '.DS_Store'
-
+AWS_ACCESS_KEY                     // AWS IAM access Key
+AWS_SECRET_KEY                     // AWS IAM secret Key
+AWS_REGION                         // AWS region
+S3_BUCKET                          // Bucket name
+DISTRIBUTION_ID                    // CloudFront distribution Id
+UPLOAD_TO_S3                       // Flag to upload the files on s3 (true or false)
+UPDATE_CLOUDFRONT                  // Flag to update the CloudFront distribution [true or false]
+EXCLUDE_ROOT_DIR                   // Upload the content of the folder or upload the folder (true or false)
+EXCLUDE_DIRECTORY                  // Exclude directory in comma seprated string eg. '.git, npm_modules'
+EXCLUDE_FILES                      // Exclude Files in comma seprated string eg. '.gitignore', '.DS_Store'
+```
 
 ## Usage
 * `node deploy.js` uploads the files and update the CloudFront distribution depending on the configuration
