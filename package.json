@@ -1,0 +1,19 @@
+{
+  "name": "frontend-deployment-utility",
+  "version": "1.0.0",
+  "description": "Deploys the code on s3 bucket and updates the clould front distribution",
+  "main": "deploy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node deploy.js",
+    "deploy": "node deploy.js"
+  },
+  "author": "Anurag Vikram Singh <https://www.linkedin.com/in/anuragvikramsingh/>",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.463.0",
+    "fs": "0.0.1-security",
+    "path": "^0.12.7",
+    "s3": "^4.4.0"
+  }
+}
